@@ -62,7 +62,7 @@ print(union('This text is bold black with yellow background'))
 
 <br/>
 
-*Note: Other examples can be found [here]().*
+*Note: Other examples can be found [here](../examples/).*
 
 ## Information
 
