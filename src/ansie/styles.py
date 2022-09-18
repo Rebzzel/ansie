@@ -82,7 +82,7 @@ class BGColor(Style):
 
 
 class ColorMap:
-   def __init__(self, fg: t.Union[str, FGColor], bg: t.Union[str, BGColor]):
+    def __init__(self, fg: t.Union[str, FGColor], bg: t.Union[str, BGColor]):
         self.fg = FGColor(fg) if type(fg) is str else fg
         self.bg = BGColor(bg) if type(bg) is str else bg
 
@@ -117,7 +117,7 @@ __all__ = [
     'italic',
     'underline',
     'blinking',
-    'inverse'
+    'inverse',
     'invisible',
     'strikethrough',
 
@@ -125,9 +125,9 @@ __all__ = [
     'BGColor',
     'ColorMap',
 
-    'black'
+    'black',
     'red',
-    'green'
+    'green',
     'yellow',
     'blue',
     'magenta',

@@ -25,7 +25,7 @@ colors = {
 def main():
     for name, color in colors.items():
         print(
-            color.fg(f'{name}.fg'.ljust(10)), 
+            color.fg(f'{name}.fg'.ljust(10)),
             color.bg(f'{name}.bg'.ljust(10)),
         )
 

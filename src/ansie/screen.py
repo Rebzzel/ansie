@@ -11,7 +11,7 @@ cursor_right = csi('1C')
 cursor_left = csi('1D')
 
 
-def cursor_save(*, dec: bool = None, sco: bool = None):
+def cursor_save(*, dec: bool = None, sco: bool = None) -> str:
     if (dec is None) and (sco is None):
         dec = True
     
@@ -23,7 +23,7 @@ def cursor_save(*, dec: bool = None, sco: bool = None):
     return esc(*sequence)
 
 
-def cursor_restore(*, dec: bool = None, sco: bool = None):
+def cursor_restore(*, dec: bool = None, sco: bool = None) -> str:
     if (dec is None) and (sco is None):
         dec = True
 

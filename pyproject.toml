@@ -5,7 +5,7 @@ description = "Utility for convenient use of ANSI ESC codes."
 authors = ["Rebzzel"]
 license = "MIT"
 packages = [
-	{include = "ansie", from = "src"}
+    {include = "ansie", from = "src"}
 ]
 
 [tool.poetry.dependencies]
